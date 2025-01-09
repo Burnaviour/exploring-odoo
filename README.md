@@ -34,9 +34,11 @@ This repository contains source codes presented in youtube channel [Exploring Od
 > This repo and the youtube channel is to help you learn. Not to provide you with fully functional module.
 >
 > If you're having trouble with the code, ask politely and nicely like a civil person.
+>
+> Always check the version in the manifest file. This branch is not specific to one Odoo version.
 
 # Experimental Odoo Modules
 
-| Name              | Folder            | Description                                |
-| ----------------- | ----------------- | ------------------------------------------ |
-| POS Custom Button | pos_custom_button | Example on how to add custom button to POS |
+| Name              | Folder            | Description                                        |
+| ----------------- | ----------------- | -------------------------------------------------- |
+| POS Custom Button | pos_custom_button | Example on how to add custom button to Odoo 18 POS |
