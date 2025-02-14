@@ -3,7 +3,7 @@
 This repository contains source codes presented in youtube channel [Exploring Odoo](https://www.youtube.com/@exploring-odoo)
 
 
-> [!WARNING]
+> [!CAUTION]
 > Everything in this repo is purely experimental and for educational purpose use only.
 >
 > Do not use it in any environment but in an experimental one, definitely not in a production environment.
@@ -13,7 +13,7 @@ This repository contains source codes presented in youtube channel [Exploring Od
 > Use it at your own risk.
 >
 
-> [!NOTE]
+> [!IMPORTANT]
 > This repository only serves as an archive, bugs will not be fixed.
 >
 > The only test performed was to make sure things can be run on my environment to create videos for channel Exploring Odoo, and only for the specific scenario of the related video.
@@ -30,10 +30,15 @@ This repository contains source codes presented in youtube channel [Exploring Od
 > E.g, if you're having trouble with the datalabel extension for chart.js then you must have not watched the video thoroughly. Please watch the video again thoroughly this time.
 >
 
->[!IMPORTANT]
+>[!WARNING]
 > This repo and the youtube channel is to help you learn. Not to provide you with fully functional module.
 >
 > If you're having trouble with the code, ask politely and nicely like a civil person.
+>
+
+>[!NOTE]
+> If you find this repo helpful, please keep it alive by sharing it and giving it a star.
+>
 
 # Experimental Odoo Modules
 
@@ -49,3 +54,4 @@ This repository contains source codes presented in youtube channel [Exploring Od
 | Exercise One       | exercise_one           | Demonstrate three ways to process selected records on a list view.    |
 | AI Chat            | ai_chat                | Demonstrate custom user interface and streaming fro chatting with AI. |
 | AI Doc             | ai_doc                 | Demonstrate using AI to search Odoo documentation.                    |
+
