@@ -19,6 +19,11 @@
 > For information about this, please visit [Odoo documentation repo](https://github.com/odoo/documentation)
 > 2. At the time of writing this, it seems the NLUX is not active anymore. This information should be included in your decision making process.
 
+> [!IMPORTANT]
+> This module only works on Windows.
+> See https://github.com/yonitjio/exploring-odoo/issues/6
+
+
 This module demonstrate using AI to search Odoo documentation.
 
 Please watch this videos for more details:
