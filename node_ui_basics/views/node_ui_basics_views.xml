@@ -1,0 +1,38 @@
+<odoo>
+  <data>
+    <record model="ir.actions.client" id="node_ui_basics_svg">
+      <field name="name">SVG</field>
+      <field name="tag">svg_basics</field>
+    </record>
+
+    <record model="ir.actions.client" id="node_ui_basics_canvas">
+      <field name="name">Canvas</field>
+      <field name="tag">canvas_basics</field>
+    </record>
+
+    <record model="ir.actions.client" id="node_ui_basics_konva">
+      <field name="name">Konva</field>
+      <field name="tag">canvas_konva</field>
+    </record>
+
+    <record model="ir.actions.client" id="node_ui_basics_movable_div">
+      <field name="name">movable DIV</field>
+      <field name="tag">movable_div</field>
+    </record>
+
+    <menuitem name="Node UI Basics" id="node_ui_basics.menu_root" />
+
+    <menuitem name="Canvas" id="node_ui_basics.canvas_basics_menu"
+        parent="node_ui_basics.menu_root" action="node_ui_basics_canvas" sequence="1"/>
+
+    <menuitem name="Konva" id="node_ui_basics.canvas_konva_menu"
+        parent="node_ui_basics.menu_root" action="node_ui_basics_konva" sequence="2"/>
+
+    <menuitem name="SVG" id="node_ui_basics.svg_basics_menu"
+        parent="node_ui_basics.menu_root" action="node_ui_basics_svg" sequence="3"/>
+
+    <menuitem name="DIV" id="node_ui_basics.movable_div_menu"
+        parent="node_ui_basics.menu_root" action="node_ui_basics_movable_div" sequence="4"/>
+
+  </data>
+</odoo>

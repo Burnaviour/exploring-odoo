@@ -55,3 +55,4 @@ This repository contains source codes presented in youtube channel [Exploring Od
 | AI Chat            | ai_chat                | Demonstrate custom user interface and streaming fro chatting with AI.          |
 | AI Doc             | ai_doc                 | Demonstrate using AI to search Odoo documentation.                             |
 | Scraper Test       | scraper_test           | Demonstrate issues when running Crawl4AI, Playwright and Selenium inside Odoo. |
+| Node UI Basics     | node_ui_basics         | Contains the underlying concepts to create Node UI Basics.                     |
