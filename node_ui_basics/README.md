@@ -17,3 +17,4 @@ Please watch these videos for more details:
 
 [![EXPLORING_ODOO](https://img.youtube.com/vi/sMDIly3bddo/0.jpg)](https://youtu.be/sMDIly3bddo)
 [![EXPLORING_ODOO](https://img.youtube.com/vi/iFPyQjJ2Uyw/0.jpg)](https://youtu.be/iFPyQjJ2Uyw)
+[![EXPLORING_ODOO](https://img.youtube.com/vi/knC4BaGbWGo/0.jpg)](https://youtu.be/knC4BaGbWGo)
