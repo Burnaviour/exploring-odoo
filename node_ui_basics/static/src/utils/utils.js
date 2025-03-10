@@ -14,3 +14,17 @@ export function uuidv4() {
     );
 }
 
+export function createDiv(l, t, w, h, c) {
+    const el = document.createElement("div");
+
+    el.className = "debug-div";
+    el.style.position = "fixed";
+    el.style.pointerEvents = "none";
+    el.style.left = `${l}px`;
+    el.style.top = `${t}px`;
+    el.style.width = `${w}px`;
+    el.style.height = `${h}px`;
+    el.style.background = c;
+
+    return document.body.appendChild(el);
+}

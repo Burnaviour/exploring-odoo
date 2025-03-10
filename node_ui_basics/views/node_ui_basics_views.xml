@@ -15,6 +15,16 @@
       <field name="tag">svg_connection</field>
     </record>
 
+    <record model="ir.actions.client" id="node_ui_basics_svg_bezier">
+      <field name="name">SVG Bezier</field>
+      <field name="tag">svg_bezier</field>
+    </record>
+
+    <record model="ir.actions.client" id="node_ui_basics_node_ui_svg">
+      <field name="name">Node UI with SVG</field>
+      <field name="tag">node_ui_svg</field>
+    </record>
+
     <record model="ir.actions.client" id="node_ui_basics_canvas">
       <field name="name">Canvas</field>
       <field name="tag">canvas_basics</field>
@@ -23,6 +33,11 @@
     <record model="ir.actions.client" id="node_ui_basics_canvas_nodes">
       <field name="name">Canvas with Nodes</field>
       <field name="tag">canvas_nodes</field>
+    </record>
+
+    <record model="ir.actions.client" id="node_ui_basics_canvas_connection">
+      <field name="name">Canvas Connection</field>
+      <field name="tag">canvas_connection</field>
     </record>
 
     <record model="ir.actions.client" id="node_ui_basics_canvas_connection">
@@ -68,6 +83,12 @@
 
     <menuitem name="SVG Connection" id="node_ui_basics.svg_connection_menu"
         parent="node_ui_basics.svg_menu" action="node_ui_basics_svg_connection" sequence="2"/>
+
+    <menuitem name="SVG Bezier" id="node_ui_basics.svg_bezier_menu"
+        parent="node_ui_basics.svg_menu" action="node_ui_basics_svg_bezier" sequence="3"/>
+
+    <menuitem name="Node UI with SVG" id="node_ui_basics.node_ui_svg_menu"
+        parent="node_ui_basics.svg_menu" action="node_ui_basics_node_ui_svg" sequence="4"/>
 
     <menuitem name="DIV" id="node_ui_basics.movable_div_menu"
         parent="node_ui_basics.menu_root" action="node_ui_basics_movable_div" sequence="4"/>

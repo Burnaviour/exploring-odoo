@@ -2,7 +2,6 @@ import { Component, useRef, useState, onWillStart, onMounted } from "@odoo/owl";
 import { registry } from "@web/core/registry";
 
 import { standardActionServiceProps } from "@web/webclient/actions/action_service";
-import { bezierFromPoints } from "@node_ui_basics/utils/svg_bezier";
 
 class SvgConnection extends Component {
     static template = "svg-connection";
