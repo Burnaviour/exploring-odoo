@@ -11,7 +11,7 @@
 > [!CAUTION]
 > Do not use this module unless you have reviewed the source codes thoroughly, understand what it does and in an experimental environment.
 
-Contains the underlying basic concepts to create Node based UI.
+A demo of what a node based UI app looks like.
 
 Please watch these videos for more details:
 
